@@ -1,0 +1,33 @@
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.col-2  { width: 16.66%; }
+.col-4  { width: 33.33%; }
+.col-6  { width: 50%; }
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.navbar-menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
